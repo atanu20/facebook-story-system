@@ -20,6 +20,7 @@ app.use(cors())
 app.use(express.json())
 app.use(fileUpload())
 
+
 router.get("/",(req,res)=>{
     res.send("hii")
 })
